@@ -1,1 +1,18 @@
-<html></html>
+<html>
+
+<body>
+    <script>
+        async function ApiCall() {
+            let response = await fetch('https://raw.githubusercontent.com/mdn/learning-area/main/javascript/apis/fetching-data/can-store/products.json');
+            var data = await response.text();
+            return data;
+        }
+
+        ApiCall().then(text => {
+            debugger
+            text; // => 'Page not found'
+        });
+    </script>
+</body>
+
+</html>
