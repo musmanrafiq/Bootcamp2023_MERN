@@ -6,7 +6,9 @@ function Layout() {
     return (
         <div className="App">
             <Header />
-            <Outlet></Outlet>
+            <div style={{ 'height': '490px' }}>
+                <Outlet></Outlet>
+            </div>
             <Footer />
         </div>
     )
