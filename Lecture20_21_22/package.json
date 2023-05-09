@@ -1,0 +1,15 @@
+{
+  "name": "serverapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongoddOps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0"
+  }
+}
